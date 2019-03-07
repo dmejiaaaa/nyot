@@ -1,3 +1,45 @@
 body {
     background-color: red;
 }
+nav {
+    text-transform: uppercase;
+    font-family: PT Sans Narrow;
+} 
+.nav-link {
+    font-weight: bold;
+}
+/*when you hover the tabs change to itallics and background color does*/
+.nav-link:hover{
+    font-style: italic;
+    background-color: #7fffd4 !important;
+}
+header {
+    height: 625px;
+    background-image: url("Guitars.jpg");
+    background-size: cover;
+    
+    /*centeroftext*/
+    text-align: center;
+}
+header p {
+    font-style: italic;
+    color:Blue;
+}
+header h1 {
+    color: Blue;
+}
+
+.services i {
+    /*Adjust the size and position of the icon*/
+    font-size: 30px;
+    padding: 25px 20px;
+    /*Color changes the color of the icon*/
+    color: #000000;
+    background-color: #551a8b;
+    /*Resize the container the icon is in*/
+    width: 80px;
+    Height: 80px;
+    
+    border-radius: 60%;
+
+}
